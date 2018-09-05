@@ -51,6 +51,8 @@ divided = p.split('div>')
 #worst part of the code, trying to get rid of the trash that isnt lyrics.
 textBlock = divided[19].replace("<br/>", "").replace("<i>", "").replace("</i>", "").replace("<!-- Usage of azlyrics.com content by any third-party lyrics provider is prohibited by our licensing agreement. Sorry about that. -->", "").replace("<[Hook:]>", "").replace("[Intro:]", "").replace("[Outro:]", "").replace("[Outro x2:]", "").replace("[Hook]", "").replace("</", "").replace("[Verse 1:]", "").replace("[Verse 2:]", "").replace("[Verse 3:]", "").replace("[Verse 4:]", "")
 
+print (textBlock)
+
 #creation of mp3
 tts = gTTS(text=textBlock, lang='en')
 tts.save(songTitle)
