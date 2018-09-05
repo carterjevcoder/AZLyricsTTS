@@ -3,7 +3,7 @@
 # PROGRAM: lyrics2mp3
 # PURPOSE: Takes a users input of a song, finds the AZlyrics page for it, then gives an mp3 of the text to speech
 # of that song. This is probably optimized horribly.
-# NOTE: I needed to install AVBin in order for the mp3 creation and play to work.
+# NOTE: I needed to install AVBin in order for the mp3 creation and play to work. uhhhhh
 
 #imports needed to scrape HTML and convert to mp3
 from bs4 import BeautifulSoup
