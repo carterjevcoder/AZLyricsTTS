@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # AUTHOR: Carter Jevens
 # PROGRAM: lyrics2mp3
 # PURPOSE: Takes a users input of a song, finds the AZlyrics page for it, then gives an mp3 of the text to speech
